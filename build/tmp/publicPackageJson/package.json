@@ -1,0 +1,12 @@
+{
+  "main": "bethast.js",
+  "devDependencies": {
+    "dukat": "0.5.8-rc.3"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "name": "bethast",
+  "version": "1.0.0-SNAPSHOT"
+}

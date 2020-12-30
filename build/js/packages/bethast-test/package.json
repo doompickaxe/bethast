@@ -1,0 +1,18 @@
+{
+  "main": "kotlin/bethast-test.js",
+  "devDependencies": {
+    "mocha": "8.1.1",
+    "source-map-support": "0.5.19"
+  },
+  "dependencies": {
+    "bethast": "1.0.0-SNAPSHOT",
+    "kotlin": "file:/home/kev/IdeaProjects/bethast/build/js/packages_imported/kotlin/1.4.21",
+    "kotlin-test": "file:/home/kev/IdeaProjects/bethast/build/js/packages_imported/kotlin-test/1.4.21",
+    "kotlin-test-js-runner": "file:/home/kev/IdeaProjects/bethast/build/js/packages_imported/kotlin-test-js-runner/1.4.21"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "name": "bethast-test",
+  "version": "1.0.0-SNAPSHOT"
+}
