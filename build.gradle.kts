@@ -1,5 +1,7 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
-    kotlin("js") version "1.4.21"
+    kotlin("jvm") version "1.4.21"
 }
 
 group = "io.kay"
@@ -10,13 +12,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test-js"))
+    implementation("io.javalin:javalin:3.13.0")
+    runtimeOnly("org.slf4j:slf4j-simple:1.7.30")
 }
 
-kotlin {
-    js(LEGACY) {
-        nodejs {
-            binaries.executable()
-        }
-    }
-}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions.jvmTarget = "11"
